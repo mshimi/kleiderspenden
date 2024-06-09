@@ -1,23 +1,35 @@
 import logo from './logo.svg';
+import {
+  BrowserRouter,
+  Routes, // instead of "Switch"
+  Route,
+} from "react-router-dom";
 import './App.css';
+import Ziel from './pages/Ziel/Ziel';
+import About from './pages/About/About';
+import Home from './pages/Home/Home';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+import { Container } from 'react-bootstrap';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  return (<div className="d-flex flex-column min-vh-100">
+ <BrowserRouter>
+    <Header></Header>
+
+    <Container  className="flex-grow-1 d-flex align-items-top justify-content-center">
+   <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/ziel" element={<Ziel />} />
+        <Route path="/about" element={<About />} />
+      
+      </Routes> 
+      
+      </Container>
+      <Footer></Footer>
+    </BrowserRouter>
+
+    
     </div>
   );
 }
