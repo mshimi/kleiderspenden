@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/kleiderspenden/static/css/main.365d5072.css",
+    "main.js": "/kleiderspenden/static/js/main.8fe44e80.js",
+    "static/js/453.403bd0af.chunk.js": "/kleiderspenden/static/js/453.403bd0af.chunk.js",
+    "static/media/logo.png": "/kleiderspenden/static/media/logo.680cc7f84d4f8101fd07.png",
+    "static/media/Flag_of_Afghanistan_Flat_Round-1024x1024.png": "/kleiderspenden/static/media/Flag_of_Afghanistan_Flat_Round-1024x1024.d4bae9b7ed3e2ab4763a.png",
+    "static/media/Flag_of_Haiti_Flat_Round-1024x1024.png": "/kleiderspenden/static/media/Flag_of_Haiti_Flat_Round-1024x1024.a5b922897d4e4e0654d6.png",
+    "static/media/Flag_of_Turkey_Flat_Round-1024x1024.png": "/kleiderspenden/static/media/Flag_of_Turkey_Flat_Round-1024x1024.a7760762bbe560b84b2d.png",
+    "static/media/Flag_of_Bangladesh_Flat_Round-1024x1024.png": "/kleiderspenden/static/media/Flag_of_Bangladesh_Flat_Round-1024x1024.88c886f1336d01ed98fd.png",
+    "static/media/Flag_of_Somalia_Flat_Round-1024x1024.png": "/kleiderspenden/static/media/Flag_of_Somalia_Flat_Round-1024x1024.ff72be418050b1752334.png",
+    "static/media/Flag_of_Palestine_Flat_Round-1024x1024.png": "/kleiderspenden/static/media/Flag_of_Palestine_Flat_Round-1024x1024.27670483ea77681f753d.png",
+    "static/media/Flag_of_Ukraine_Flat_Round-1024x1024.png": "/kleiderspenden/static/media/Flag_of_Ukraine_Flat_Round-1024x1024.4f4e9394332e277a26b7.png",
+    "static/media/logo.svg": "/kleiderspenden/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/kleiderspenden/index.html",
+    "main.365d5072.css.map": "/kleiderspenden/static/css/main.365d5072.css.map",
+    "main.8fe44e80.js.map": "/kleiderspenden/static/js/main.8fe44e80.js.map",
+    "453.403bd0af.chunk.js.map": "/kleiderspenden/static/js/453.403bd0af.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.365d5072.css",
+    "static/js/main.8fe44e80.js"
+  ]
+}
