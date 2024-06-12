@@ -1,7 +1,7 @@
 import { Button, Col, Form, Row } from "react-bootstrap";
 import { categories, clothesArts } from "../../../../Data/data";
 import { useContext, useState } from "react";
-import { FaPlus, FaRegPlusSquare } from "react-icons/fa";
+import { FaPlus } from "react-icons/fa";
 import { OrderContext } from "../../../../context/OrderContextProvider";
 
 export default function ClothesForm(props) {

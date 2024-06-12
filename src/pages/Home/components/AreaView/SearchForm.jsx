@@ -1,6 +1,6 @@
-import { Button, Col, Form, Row } from "react-bootstrap";
+import { Col, Form, Row } from "react-bootstrap";
 import ShowTypeButton from "./ShowTypeButton";
-import { useContext, useState } from "react";
+import { useContext } from "react";
 import { kriesen } from "../../../../Data/data";
 import { AreaContext } from "../../../../context/AreaContextProvider";
 

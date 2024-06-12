@@ -2,7 +2,6 @@ import { useContext } from "react";
 import { OrderContext } from "../../../../context/OrderContextProvider";
 import { Button, Nav } from "react-bootstrap";
 import { GiConfirmed } from "react-icons/gi";
-import { Link } from "react-router-dom";
 import { getClothesArtById } from "../../../../Data/data";
 
 

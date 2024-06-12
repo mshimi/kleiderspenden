@@ -1,5 +1,4 @@
 import { Container } from "react-bootstrap";
-import { ViewButtons } from "../../pages/Home/components/DeliveryOptionsView/ViewButtons";
 
 export default function Footer() {
     

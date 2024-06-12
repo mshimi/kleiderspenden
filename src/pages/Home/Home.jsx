@@ -1,13 +1,11 @@
-import { useContext, useState } from "react";
+import {  useState } from "react";
 import { StartingView } from "./components/StartingView/StartingView";
 import DeliveryOptionsView from "./components/DeliveryOptionsView/DeliveryOptionsView";
-import OrderContextProvider, { OrderContext } from "../../context/OrderContextProvider";
+import OrderContextProvider from "../../context/OrderContextProvider";
 import AreaView from "./components/AreaView/AreaView";
 import { ClothesView } from "./components/ClothesView/ClothesView";
 import ConfirmationView from "./components/ConfirmationView/ConfirmationView";
-import ReviewView from "./components/ReviewView/ReviewView";
-import AddressView from "./components/AddressView/UserInfoView";
-import { Step, Stepper } from "react-form-stepper";
+
 import UserInfoView from "./components/AddressView/UserInfoView";
 
 export default function Home() {

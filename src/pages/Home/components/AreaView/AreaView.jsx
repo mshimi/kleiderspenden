@@ -1,6 +1,5 @@
 import { Container } from "react-bootstrap";
 import ViewHeader from "../DeliveryOptionsView/ViewHeader";
-import logo from "../../../../assets/logo.png";
 
 import SearchForm from "./SearchForm";
 

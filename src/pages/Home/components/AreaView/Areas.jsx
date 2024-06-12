@@ -1,7 +1,6 @@
-import { Accordion, AccordionHeader, Row } from "react-bootstrap";
-import { AreaCard } from "./AreaCard";
-import { areas, kriesen } from "../../../../Data/data";
-import { useContext, useState } from "react";
+
+import {  kriesen } from "../../../../Data/data";
+import { useContext} from "react";
 import { AreaContext } from "../../../../context/AreaContextProvider";
 import { AreasAsList } from "./AreasAsList";
 import { AreasAsGrid } from "./AreasAsGrid";

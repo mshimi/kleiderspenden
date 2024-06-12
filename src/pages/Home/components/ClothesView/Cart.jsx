@@ -3,7 +3,6 @@ import { Button, Table } from "react-bootstrap";
 import { OrderContext } from "../../../../context/OrderContextProvider";
 import { getCategoryById, getClothesArtById } from "../../../../Data/data";
 import { FaShoppingBasket } from "react-icons/fa";
-import { ViewButtons } from "../DeliveryOptionsView/ViewButtons";
 
 export function Cart(){
 

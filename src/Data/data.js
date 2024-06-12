@@ -1,4 +1,3 @@
-import logo from "../assets/logo.png"
 import Afghanistan from "../assets/flags/Flag_of_Afghanistan_Flat_Round-1024x1024.png"
 import Bangladesh from "../assets/flags/Flag_of_Bangladesh_Flat_Round-1024x1024.png"
 import Haiti from "../assets/flags/Flag_of_Haiti_Flat_Round-1024x1024.png"

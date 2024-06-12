@@ -2,8 +2,6 @@ import {
  Container,
 } from "react-bootstrap";
 import ViewHeader from "../DeliveryOptionsView/ViewHeader";
-import { IoGrid } from "react-icons/io5";
-import { types, categories, getCatigoriesByType, getCategoryById, getClothesArtById } from "../../../../Data/data";
 import { useContext, useState } from "react";
 import ClothesForm from "./ClothesForm";
 import { OrderContext } from "../../../../context/OrderContextProvider";

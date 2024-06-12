@@ -1,4 +1,4 @@
-import { type } from "@testing-library/user-event/dist/type";
+
 import { createContext, useState } from "react";
 import { Step, Stepper } from "react-form-stepper";
 

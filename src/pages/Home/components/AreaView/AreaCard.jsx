@@ -1,5 +1,4 @@
-import { Button, Card, Col, Image } from "react-bootstrap";
-import logo from "../../../../assets/logo.png";
+import { Button, Col, Image } from "react-bootstrap";
 import { useContext } from "react";
 import { OrderContext } from "../../../../context/OrderContextProvider";
 
