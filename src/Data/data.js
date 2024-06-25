@@ -18,7 +18,7 @@ export  const kriesen = [
     {name:"Erdbeben", id: "2"},
     {name:"Überschwemmungen", id: "3"},
     {name:"Hungersnöte", id: "4"},
-    {name:"Epidemien", id: "5"},
+    // {name:"Epidemien", id: "5"},
    
   ];
   
