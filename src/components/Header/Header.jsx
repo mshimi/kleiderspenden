@@ -9,6 +9,8 @@ import { Stack } from 'react-bootstrap';
 export default function Header() {
 
     const location = useLocation();
+
+    // current active path to decorate the active link
      let activePath =  location.pathname ;
     
   return (

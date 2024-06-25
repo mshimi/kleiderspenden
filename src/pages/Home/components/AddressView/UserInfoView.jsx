@@ -18,8 +18,8 @@ export default function UserInfoView(props) {
   const [formErrors, setFormErrors] = useState({});
   const [isSubmit, setIsSubmit] = useState(false);
 
-  const handleChange = (e) => {
-    const { id, value } = e.target;
+  const handleChange = (event) => {
+    const { id, value } = event.target;
     setFormValues({ ...formValues, [id]: value });
   };
 
@@ -89,13 +89,13 @@ export default function UserInfoView(props) {
   }, [formErrors, isSubmit, props]);
 
   return (
-    <div>
+    <div  >
       <ViewHeader
         title="Geben Sie Ihre persönlichen Informationen und Adresse ein"
         description="Um Ihre Spende erfolgreich abzuschließen, benötigen wir einige persönliche Informationen und Ihre Adresse. Diese Informationen helfen uns, die Abholung Ihrer Spende zu organisieren und sicherzustellen, dass sie die richtigen Empfänger erreicht. Bitte füllen Sie die folgenden Felder sorgfältig aus."
       />
 
-      <Form onSubmit={handleSubmit}>
+      <Form onSubmit={handleSubmit}  className="px-3">
         <TextField
           name="firstName"
           label="Vorname"
@@ -130,8 +130,8 @@ export default function UserInfoView(props) {
         />
         <TextField
           name="zipCode"
-          label="Post"
-          placeholder="post"
+          label="Postleitzahl"
+          placeholder="Postleitzahl"
           onChange={handleChange}
           value={formValues.zipCode}
           error={formErrors.zipCode}

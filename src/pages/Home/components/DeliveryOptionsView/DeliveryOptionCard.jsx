@@ -10,7 +10,9 @@ import { Button } from "react-bootstrap";
       <Button onClick = {()=>{
             onSelected(titel);
         
-      }} variant= {!props.isSelected ? "secondary" : "success"} size="lg">
+      }}
+       variant= {!props.isSelected ? "secondary" : "success"} 
+       size="lg">
         
             {props.icon}
             <p className="fs-1 fw-bolder  text-uppercase"> {props.titel}</p>

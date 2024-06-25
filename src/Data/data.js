@@ -26,19 +26,19 @@ export  const kriesen = [
   export const areas = [
     {
       id: "1",
-      name: "palestinia",
+      name: "Palastina",
       kriese : kriesen[1],
       flage : Palestine,
     },
     {
       id: "2",
-      name: "Ukraina",
+      name: "Ukraine",
       kriese : kriesen[1],
       flage : Ukraine,
     },
     {
       id: "3",
-      name: "Afganistan",
+      name: "Afghanistan",
       kriese : kriesen[1],
       flage : Afghanistan,
     },
@@ -88,7 +88,7 @@ export  const kriesen = [
 
     {id:"0", name: "T-Shirt", types: ["1", "2", "3"], sizes : ["S", "M", "L", "XL"]},
     {id:"1",name: "Jeans", types: ["1", "2", "3"], sizes : ["S", "M", "L", "XL"]},
-    {id:"2",name: "Hosa", types: ["1", "2", "3"], sizes : ["26", "28", "30", "32", "34","36"]},
+    {id:"2",name: "Hose", types: ["1", "2", "3"], sizes : ["26", "28", "30", "32", "34","36"]},
     {id:"3",name: "Kleid", types: [ "2", "3"], sizes : ["S", "M", "L", "XL"]},
     {id:"4",name: "Rock", types: [ "2"], sizes : ["S", "M", "L", "XL"]},
     {id:"5",name: "Mütze", types: ["1", "2", "3"], sizes : ["S", "M", "L", "XL"]},
